@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.habitlist {
+  border: 2px solid black;
+  margin-bottom: 4px;
+  width: fit-content;
+  padding: 10px;
+  /* background-color: greenyellow; */
+}
+
+button {
+  margin: 4px;
+  padding: 6px;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.modal-content {
+  background-color: lightpink;
+  border: 2px solid black;
+  padding: 10px;
+  /* display: flex; */
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
+label,
+textarea {
+  padding: 6px;
+}
+
+.habit-cards {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  border: 4px solid brown;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.archived-list {
+  border: 4px dotted green;
+}
+
+.vertical-center {
+  text-align: center;
+  margin: 20px;
+}
+
+.vertical-center button {
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: lightgreen;
+  font-weight: bolder;
+  font-size: 1rem;
+}
